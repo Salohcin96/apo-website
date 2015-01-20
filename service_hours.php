@@ -161,7 +161,6 @@ function list_hours($hours_id) {
 		} else {
 			$hours_line = "class='hours_row2'";
 		}
-
 		$fund = "";
 		if ($i['fundraising'] == 1) {
 			$fund = "<img src='img/fundraising_coin.jpg' style='vertical-align: middle;' title='Fundraising!' alt='Fundraising!'/>";
